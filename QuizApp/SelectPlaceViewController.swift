@@ -1,5 +1,5 @@
 //
-//  ScoreViewController.swift
+//  SelectPlaceViewController.swift
 //  QuizApp
 //
 //  Created by 中谷年希 on 2021/06/11.
@@ -7,23 +7,27 @@
 
 import UIKit
 
-class ScoreViewController: UIViewController {
-    @IBOutlet weak var scoreLavel: UILabel!
+class SelectPlaceViewController: UIViewController {
     
-    var correct = 0
+    var selectTag = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        scoreLavel.text = "\(correct)門正解!"
-        
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func roTopButtonAction(_ sender: Any) {
-        self.presentingViewController?.presentingViewController?.presentingViewController?.dismiss(animated: true)
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let quizVC = segue.destination as! QuizViewController
+        quizVC.selectLabel = selectTag
     }
     
+    @IBAction func lavelButtonAction(sender: UIButton) {
+        print(sender.tag)
+        selectTag = sender.tag
+        performSegue(withIdentifier: "toQuizVC", sender: nil)
+    }
+
     /*
     // MARK: - Navigation
 

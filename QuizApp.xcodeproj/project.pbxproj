@@ -15,9 +15,11 @@
 		5B7F293B267268F200E3E170 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B7F2939267268F200E3E170 /* LaunchScreen.storyboard */; };
 		5B7F294326726AC100E3E170 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7F294226726AC100E3E170 /* QuizViewController.swift */; };
 		5B7F294526726B6900E3E170 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7F294426726B6900E3E170 /* ScoreViewController.swift */; };
-		5B7F29472672722200E3E170 /* quiz.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5B7F29462672722200E3E170 /* quiz.csv */; };
+		5B7F29472672722200E3E170 /* quiz1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5B7F29462672722200E3E170 /* quiz1.csv */; };
 		5B7F294B267290A300E3E170 /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B7F2949267290A300E3E170 /* correct.png */; };
 		5B7F294C267290A300E3E170 /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B7F294A267290A300E3E170 /* incorrect.png */; };
+		5B7F294E26729DC900E3E170 /* SelectPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7F294D26729DC900E3E170 /* SelectPlaceViewController.swift */; };
+		5B7F29502672A53900E3E170 /* quiz2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5B7F294F2672A53900E3E170 /* quiz2.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +33,11 @@
 		5B7F293C267268F200E3E170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B7F294226726AC100E3E170 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		5B7F294426726B6900E3E170 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
-		5B7F29462672722200E3E170 /* quiz.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz.csv; sourceTree = "<group>"; };
+		5B7F29462672722200E3E170 /* quiz1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz1.csv; sourceTree = "<group>"; };
 		5B7F2949267290A300E3E170 /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
 		5B7F294A267290A300E3E170 /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
+		5B7F294D26729DC900E3E170 /* SelectPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPlaceViewController.swift; sourceTree = "<group>"; };
+		5B7F294F2672A53900E3E170 /* quiz2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz2.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,9 +74,11 @@
 				5B7F2930267268EC00E3E170 /* SceneDelegate.swift */,
 				5B7F2932267268EC00E3E170 /* ViewController.swift */,
 				5B7F2934267268EC00E3E170 /* Main.storyboard */,
-				5B7F29462672722200E3E170 /* quiz.csv */,
+				5B7F294D26729DC900E3E170 /* SelectPlaceViewController.swift */,
+				5B7F29462672722200E3E170 /* quiz1.csv */,
 				5B7F294426726B6900E3E170 /* ScoreViewController.swift */,
 				5B7F294226726AC100E3E170 /* QuizViewController.swift */,
+				5B7F294F2672A53900E3E170 /* quiz2.csv */,
 				5B7F2948267290A300E3E170 /* image */,
 				5B7F2937267268F200E3E170 /* Assets.xcassets */,
 				5B7F2939267268F200E3E170 /* LaunchScreen.storyboard */,
@@ -147,12 +153,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B7F29502672A53900E3E170 /* quiz2.csv in Resources */,
 				5B7F294B267290A300E3E170 /* correct.png in Resources */,
 				5B7F294C267290A300E3E170 /* incorrect.png in Resources */,
 				5B7F293B267268F200E3E170 /* LaunchScreen.storyboard in Resources */,
 				5B7F2938267268F200E3E170 /* Assets.xcassets in Resources */,
 				5B7F2936267268EC00E3E170 /* Main.storyboard in Resources */,
-				5B7F29472672722200E3E170 /* quiz.csv in Resources */,
+				5B7F29472672722200E3E170 /* quiz1.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +174,7 @@
 				5B7F292F267268EC00E3E170 /* AppDelegate.swift in Sources */,
 				5B7F294526726B6900E3E170 /* ScoreViewController.swift in Sources */,
 				5B7F2931267268EC00E3E170 /* SceneDelegate.swift in Sources */,
+				5B7F294E26729DC900E3E170 /* SelectPlaceViewController.swift in Sources */,
 				5B7F294326726AC100E3E170 /* QuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

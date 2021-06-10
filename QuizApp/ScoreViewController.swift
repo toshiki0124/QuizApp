@@ -8,14 +8,22 @@
 import UIKit
 
 class ScoreViewController: UIViewController {
+    @IBOutlet weak var scoreLavel: UILabel!
+    
+    var correct = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        scoreLavel.text = "\(correct)門正解!"
+        
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func roTopButtonAction(_ sender: Any) {
+        self.presentingViewController?.presentingViewController?.dismiss(animated: true)
+    }
+    
     /*
     // MARK: - Navigation
 

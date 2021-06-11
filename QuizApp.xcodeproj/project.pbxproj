@@ -20,9 +20,11 @@
 		5B7F294C267290A300E3E170 /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B7F294A267290A300E3E170 /* incorrect.png */; };
 		5B7F294E26729DC900E3E170 /* SelectPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7F294D26729DC900E3E170 /* SelectPlaceViewController.swift */; };
 		5B7F29502672A53900E3E170 /* quiz2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5B7F294F2672A53900E3E170 /* quiz2.csv */; };
+		CA7E91E3108B9C393FCBEF02 /* Pods_QuizApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3266B3438A638B07D67BC18 /* Pods_QuizApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04DEAD4494FA47AAAB534B8E /* Pods-QuizApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizApp.release.xcconfig"; path = "Target Support Files/Pods-QuizApp/Pods-QuizApp.release.xcconfig"; sourceTree = "<group>"; };
 		5B7F292B267268EC00E3E170 /* QuizApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B7F292E267268EC00E3E170 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B7F2930267268EC00E3E170 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +40,8 @@
 		5B7F294A267290A300E3E170 /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
 		5B7F294D26729DC900E3E170 /* SelectPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPlaceViewController.swift; sourceTree = "<group>"; };
 		5B7F294F2672A53900E3E170 /* quiz2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz2.csv; sourceTree = "<group>"; };
+		78F8FB8E6012E04FE217BB4B /* Pods-QuizApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizApp.debug.xcconfig"; path = "Target Support Files/Pods-QuizApp/Pods-QuizApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E3266B3438A638B07D67BC18 /* Pods_QuizApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuizApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA7E91E3108B9C393FCBEF02 /* Pods_QuizApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +61,8 @@
 			children = (
 				5B7F292D267268EC00E3E170 /* QuizApp */,
 				5B7F292C267268EC00E3E170 /* Products */,
+				A8505BFEEAA888BFA0BB04A5 /* Pods */,
+				ACA5562DB059D9885FC274FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +103,24 @@
 			path = image;
 			sourceTree = "<group>";
 		};
+		A8505BFEEAA888BFA0BB04A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78F8FB8E6012E04FE217BB4B /* Pods-QuizApp.debug.xcconfig */,
+				04DEAD4494FA47AAAB534B8E /* Pods-QuizApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ACA5562DB059D9885FC274FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3266B3438A638B07D67BC18 /* Pods_QuizApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B7F293F267268F200E3E170 /* Build configuration list for PBXNativeTarget "QuizApp" */;
 			buildPhases = (
+				F70526EB56F000E17766F628 /* [CP] Check Pods Manifest.lock */,
 				5B7F2927267268EC00E3E170 /* Sources */,
 				5B7F2928267268EC00E3E170 /* Frameworks */,
 				5B7F2929267268EC00E3E170 /* Resources */,
+				B837C33F8BEFB996C94B21DF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -164,6 +191,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B837C33F8BEFB996C94B21DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuizApp/Pods-QuizApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuizApp/Pods-QuizApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuizApp/Pods-QuizApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F70526EB56F000E17766F628 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuizApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5B7F2927267268EC00E3E170 /* Sources */ = {
@@ -319,6 +388,7 @@
 		};
 		5B7F2940267268F200E3E170 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78F8FB8E6012E04FE217BB4B /* Pods-QuizApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -338,6 +408,7 @@
 		};
 		5B7F2941267268F200E3E170 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04DEAD4494FA47AAAB534B8E /* Pods-QuizApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

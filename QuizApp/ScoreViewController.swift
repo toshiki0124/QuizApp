@@ -9,11 +9,18 @@ import UIKit
 
 class ScoreViewController: UIViewController {
     @IBOutlet weak var scoreLavel: UILabel!
+    @IBOutlet weak var shareButton: UIButton!
+    @IBOutlet weak var backButton: UIButton!
     
     var correct = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        shareButton.layer.borderWidth = 2
+        shareButton.layer.borderColor = UIColor.black.cgColor
+        backButton.layer.borderWidth = 2
+        backButton.layer.borderColor = UIColor.black.cgColor
 
         scoreLavel.text = "\(correct)門正解!"
         

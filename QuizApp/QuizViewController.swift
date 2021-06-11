@@ -26,6 +26,15 @@ class QuizViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        answerButton1.layer.borderWidth = 2
+        answerButton1.layer.borderColor = UIColor.black.cgColor
+        answerButton2.layer.borderWidth = 2
+        answerButton2.layer.borderColor = UIColor.black.cgColor
+        answerButton3.layer.borderWidth = 2
+        answerButton3.layer.borderColor = UIColor.black.cgColor
+        answerButton4.layer.borderWidth = 2
+        answerButton4.layer.borderColor = UIColor.black.cgColor
+        
         print("選択したのはレベル\(selectLabel)")
         
         csvArray = loadCSV(fileName: "quiz\(selectLabel)")

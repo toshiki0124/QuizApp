@@ -8,11 +8,18 @@
 import UIKit
 
 class SelectPlaceViewController: UIViewController {
+    @IBOutlet weak var HokkaidoButton: UIButton!
+    @IBOutlet weak var OkinawaButton: UIButton!
     
     var selectTag = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        HokkaidoButton.layer.borderWidth = 2
+        HokkaidoButton.layer.borderColor = UIColor.black.cgColor
+        OkinawaButton.layer.borderWidth = 2
+        OkinawaButton.layer.borderColor = UIColor.black.cgColor
 
         // Do any additional setup after loading the view.
     }

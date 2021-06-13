@@ -69,10 +69,10 @@ class QuizViewController: UIViewController {
         if sender.tag == Int(quizArray[1]) {
             print("正解")
             correctCount += 1
-            judgeImageView.image = UIImage(named: "correct")
+            judgeImageView.image = UIImage(named: "2465148361-circle-1")
         } else {
             print("不正解")
-            judgeImageView.image = UIImage(named: "incorrect")
+            judgeImageView.image = UIImage(named: "mark_batsu_illust_898 (1)")
         }
         judgeImageView.isHidden = false
         answerButton1.isEnabled = false

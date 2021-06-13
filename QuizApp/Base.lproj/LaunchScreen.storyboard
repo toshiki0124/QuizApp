@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchImageView.png" translatesAutoresizingMaskIntoConstraints="NO" id="H5j-fi-pgH">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="941351863-72212055-大文字-q、白、3-d-イラストを分離.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="H5j-fi-pgH">
                                 <rect key="frame" x="123.5" y="269.5" width="128" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="128" id="JN8-Sv-yOE"/>
@@ -38,7 +38,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="launchImageView.png" width="1000" height="1000"/>
+        <image name="941351863-72212055-大文字-q、白、3-d-イラストを分離.jpg" width="312" height="207.83999633789062"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

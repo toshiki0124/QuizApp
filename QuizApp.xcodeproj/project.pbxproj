@@ -16,11 +16,11 @@
 		5B7F294326726AC100E3E170 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7F294226726AC100E3E170 /* QuizViewController.swift */; };
 		5B7F294526726B6900E3E170 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7F294426726B6900E3E170 /* ScoreViewController.swift */; };
 		5B7F29472672722200E3E170 /* quiz1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5B7F29462672722200E3E170 /* quiz1.csv */; };
-		5B7F294B267290A300E3E170 /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B7F2949267290A300E3E170 /* correct.png */; };
-		5B7F294C267290A300E3E170 /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B7F294A267290A300E3E170 /* incorrect.png */; };
 		5B7F294E26729DC900E3E170 /* SelectPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7F294D26729DC900E3E170 /* SelectPlaceViewController.swift */; };
 		5B7F29502672A53900E3E170 /* quiz2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5B7F294F2672A53900E3E170 /* quiz2.csv */; };
-		5BBCF73E26733AD300FD261C /* launchImageView.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BBCF73D26733AD300FD261C /* launchImageView.png */; };
+		5BBCF7642676596900FD261C /* 2465148361-circle-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BBCF7632676596900FD261C /* 2465148361-circle-1.png */; };
+		5BBCF76626765A4900FD261C /* mark_batsu_illust_898 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 5BBCF76526765A4900FD261C /* mark_batsu_illust_898 (1).png */; };
+		5BBCF76826765CB300FD261C /* 941351863-72212055-大文字-q、白、3-d-イラストを分離.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5BBCF76726765CB200FD261C /* 941351863-72212055-大文字-q、白、3-d-イラストを分離.jpg */; };
 		CA7E91E3108B9C393FCBEF02 /* Pods_QuizApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3266B3438A638B07D67BC18 /* Pods_QuizApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,11 +37,11 @@
 		5B7F294226726AC100E3E170 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		5B7F294426726B6900E3E170 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 		5B7F29462672722200E3E170 /* quiz1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz1.csv; sourceTree = "<group>"; };
-		5B7F2949267290A300E3E170 /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
-		5B7F294A267290A300E3E170 /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
 		5B7F294D26729DC900E3E170 /* SelectPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPlaceViewController.swift; sourceTree = "<group>"; };
 		5B7F294F2672A53900E3E170 /* quiz2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz2.csv; sourceTree = "<group>"; };
-		5BBCF73D26733AD300FD261C /* launchImageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImageView.png; sourceTree = "<group>"; };
+		5BBCF7632676596900FD261C /* 2465148361-circle-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2465148361-circle-1.png"; sourceTree = "<group>"; };
+		5BBCF76526765A4900FD261C /* mark_batsu_illust_898 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mark_batsu_illust_898 (1).png"; sourceTree = "<group>"; };
+		5BBCF76726765CB200FD261C /* 941351863-72212055-大文字-q、白、3-d-イラストを分離.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "941351863-72212055-大文字-q、白、3-d-イラストを分離.jpg"; sourceTree = "<group>"; };
 		78F8FB8E6012E04FE217BB4B /* Pods-QuizApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizApp.debug.xcconfig"; path = "Target Support Files/Pods-QuizApp/Pods-QuizApp.debug.xcconfig"; sourceTree = "<group>"; };
 		E3266B3438A638B07D67BC18 /* Pods_QuizApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuizApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -88,7 +88,7 @@
 				5B7F294426726B6900E3E170 /* ScoreViewController.swift */,
 				5B7F294226726AC100E3E170 /* QuizViewController.swift */,
 				5B7F294F2672A53900E3E170 /* quiz2.csv */,
-				5BBCF73D26733AD300FD261C /* launchImageView.png */,
+				5BBCF76726765CB200FD261C /* 941351863-72212055-大文字-q、白、3-d-イラストを分離.jpg */,
 				5B7F2948267290A300E3E170 /* image */,
 				5B7F2937267268F200E3E170 /* Assets.xcassets */,
 				5B7F2939267268F200E3E170 /* LaunchScreen.storyboard */,
@@ -100,8 +100,8 @@
 		5B7F2948267290A300E3E170 /* image */ = {
 			isa = PBXGroup;
 			children = (
-				5B7F2949267290A300E3E170 /* correct.png */,
-				5B7F294A267290A300E3E170 /* incorrect.png */,
+				5BBCF7632676596900FD261C /* 2465148361-circle-1.png */,
+				5BBCF76526765A4900FD261C /* mark_batsu_illust_898 (1).png */,
 			);
 			path = image;
 			sourceTree = "<group>";
@@ -183,13 +183,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B7F29502672A53900E3E170 /* quiz2.csv in Resources */,
-				5B7F294B267290A300E3E170 /* correct.png in Resources */,
-				5B7F294C267290A300E3E170 /* incorrect.png in Resources */,
+				5BBCF7642676596900FD261C /* 2465148361-circle-1.png in Resources */,
+				5BBCF76826765CB300FD261C /* 941351863-72212055-大文字-q、白、3-d-イラストを分離.jpg in Resources */,
 				5B7F293B267268F200E3E170 /* LaunchScreen.storyboard in Resources */,
 				5B7F2938267268F200E3E170 /* Assets.xcassets in Resources */,
 				5B7F2936267268EC00E3E170 /* Main.storyboard in Resources */,
+				5BBCF76626765A4900FD261C /* mark_batsu_illust_898 (1).png in Resources */,
 				5B7F29472672722200E3E170 /* quiz1.csv in Resources */,
-				5BBCF73E26733AD300FD261C /* launchImageView.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

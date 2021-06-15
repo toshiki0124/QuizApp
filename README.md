@@ -1,4 +1,5 @@
 # 方言クイズ
+<img src="https://user-images.githubusercontent.com/75344329/121991637-0926c600-cddb-11eb-82aa-9cd81c0a946f.PNG">
 # 使用技術
 <ul>
   <li>MacOS</li>
